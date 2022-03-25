@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Image.webp) ;
+            background-repeat: no-repeat;
+            background-size:cover;
+            
+            background-attachment: fixed; 
+            background-position: center; 
+}
+
+h1 {
+    color: rgb(35, 129, 16);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#texto {
+    color: rgb(65, 40, 177) ; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+#game {
+    width: 500px;
+    height: 200px;
+    border: 3px solid rgb(255, 255, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#porta {
+    width: 20px;
+    height: 50px;
+    background-color: rgb(65, 40, 177);
+    position: relative;
+    top: 150px;
+    
+}
+
+.animar {
+animation: porta 500ms infinite;
+}
+
+@keyframes porta {
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+
+#quadrado {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(35, 129, 16);
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: quadrado 1s infinite linear;
+}
+
+@keyframes quadrado {
+    0%{left: 480px;}
+    100%{left: -40px;}
+}
+
+footer {
+    font-style: italic;
+    position: fixed center;
+bottom: 0;
+text-align: center;
+color: rgb(35, 129, 16);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 10px;
+}
