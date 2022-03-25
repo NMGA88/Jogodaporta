@@ -1,2 +1,0 @@
-# jogodaporta
-Jogo da Porta
